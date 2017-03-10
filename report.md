@@ -2,12 +2,12 @@
 ## Link to the [project code](https://github.com/kpasad/Traffic-Sign-Classifier/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
-The data set contains 34799 training sample, of 32x32 RGB images. There are 12630 test images. There are 43 hypothesis for classification. Some observations:
+The data set contains 34799 training sample, of 32x32 RGB images (3 channels). There are 12630 test images. There are 43 hypothesis for classification. Some observations:
 
-* The traffic signs are pre-processed from their original size as available in master data set, to a 32x32 pixel images 
+* The traffic signs are pre-processed from their original size as available in [master data set] (http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf), to a 32x32 pixel images 
 * Images are tightly cropped and centered. There is no ambiguity in location of the signs within the images. This is very important as will be discussed in context of external data
 * Data set is unbalanced. 
-* Running cell #3 in the notebook will generate one random instances of all signs 
+* Running cell #3 in the notebook will generate one random instances of all signs  
 ![alt text](/images/diff_signs.jpg) 
 * Running cell #4, generates diffrents instance of a single 
 ![alt text](/images/diff_imgs_same_sign.jpg) 
