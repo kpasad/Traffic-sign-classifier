@@ -7,8 +7,10 @@ The data set contains 34799 training sample, of 32x32 RGB images. There are 1263
 * The traffic signs are pre-processed from their original size as available in master data set, to a 32x32 pixel images 
 * Images are tightly cropped and centered. There is no ambiguity in location of the signs within the images. This is very important as will be discussed in context of external data
 * Data set is unbalanced. 
-* Figure shows one randomly picked image for every sign. Running cell #3 in the notebook will generate different instances of all signs
-* Figure shows different instances of one sign. In cell #4, specify a diffrent sign to visualize the variety of images per sign.
+* Running cell #3 in the notebook will generate one random instances of all signs 
+![alt text](/images/diff_signs.jpg) 
+* Running cell #4, generates diffrents instance of a single 
+![alt text](/images/diff_imgs_same_sign.jpg) 
 * From the small sample, it seems that variations in perspective and lighting condition (particularly contrast) are the largest. There is rotation but not much of shift.
 
 ###Design and Test a Model Architecture
