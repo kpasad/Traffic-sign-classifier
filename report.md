@@ -7,10 +7,10 @@ The data set contains 34799 training sample, of 32x32 RGB images (3 channels). T
 * The traffic signs are pre-processed from their original size as available in [master data set] (http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset), to a 32x32 pixel images 
 * Images are tightly cropped and centered. There is no ambiguity in location of the signs within the images. This is very important as will be discussed in context of external data
 * Data set is unbalanced. 
-* Running cell #3 in the notebook will generate one random instances of all signs  
-![alt text](/images/diff_signs.jpg) 
-* Running cell #4, generates diffrents instance of a single 
-![alt text](/images/diff_imgs_same_sign.jpg) 
+* Running cell #3 in the notebook will generate one random instances of all signs.  
+![Random instance of every sign](/images/diff_signs.png) 
+* Running cell #4, generates diffrents instance of a single sign
+![Random instances of one sign](/images/diff_imgs_same_sign.png) 
 * From the small sample, it seems that variations in perspective and lighting condition (particularly contrast) are the largest. There is rotation but not much of shift.
 
 ###Design and Test a Model Architecture
