@@ -53,6 +53,7 @@ Architectures considered were all around LeNet. I tried:
 * Larger size of layers
 * Addition of dropouts of diffrent values in diffrent networks
 * Skip layer architecture 
+* Changing the field of vision for various layers
 
 In the end, i decided to stick with plain LeNet model.
 
@@ -66,6 +67,20 @@ Dropout did not affect the performance much. I could not train the network for l
 My final model consisted of the a leNet model with  larger convolutinal layers. 
 
 
+
+| Layer         		|     Description	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Input         		| 32x32x1 Grayscale image   							| 
+| Convolution (Conv1)      	|5x5 field, 1x1 stride, No padding, outputs 28x28x32 	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x32 				|
+| Convolution (Conv2)5x5	    | 5x5 field,1x1 stride, No padding, outputs 10x10x64      									|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 5x5x64 				|
+| Fully connected		(Fc0)| Input: 1600, output = 120        									|
+| Fully connected		(Fc1)| Input: 120, output = 84        									|
+| Fully connected		(Fc2)| Input: 84, output = 43        									|
+| Softmax				|         									|
 
 
 
