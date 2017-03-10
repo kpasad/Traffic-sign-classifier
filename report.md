@@ -1,5 +1,5 @@
 # **Traffic Sign Recognition** 
-## Link to the [project code](https://github.com/kpasad/Traffic-Sign-Classifier/Traffic_Sign_Classifier.ipynb)
+## Link to the [project code](https://github.com/kpasad/Traffic-Sign-Classifier/)
 
 ### Data Set Summary & Exploration
 The data set contains 34799 training sample, of 32x32 RGB images (3 channels). There are 12630 test images. There are 43 hypothesis for classification. Some observations:
