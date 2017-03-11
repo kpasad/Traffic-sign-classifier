@@ -158,4 +158,4 @@ I used the following images.
 
 The code for making predictions on my final model is located in the tenth cell of the Ipython notebook. Running the cell generates the following visual.
 ![alt text](/images/testImgs_probs.png)
-The histogram plots the 5 highest probability hypothesis for each image. The network makes very confident decisions on the highest one, with probability greater than 0.9. However, even for the out of dataset sign, it makes a fairly strong decision. I was expecting the network to make a uniform estimate for all candidates.
+The histogram plots the 5 highest probability hypothesis for each image. The network makes very confident decisions on the highest one, with probability greater than 0.9. However, even for the out of dataset sign, it makes a fairly strong decision. I was expecting the network to make a uniform estimate for all candidates. I do not have a clear explanation but it may have to do with the log-loss cost.
