@@ -151,7 +151,7 @@ I used the following images.
 3. Once I cropped the images into a tight fit around the sign.The network identified the sign with accuracy of 80% 
 5. This is explicable as the network is trained only for discrimination and not for localization
 6. I accidentally added an image that the network was not trained on. I did not investigate on what the network thought the sign was and why.
-7. See notebook, cell # for probabilities associated with images.
+7. See notebook, cell # for probabilities associated with images. In general, the network discriminates with an accuracy of ~80% compared to 93% on the test set. It seems the network is not generalised enough.
 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
